@@ -1,0 +1,26 @@
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .menu li{
+    display: inline;
+    float: left;
+  }
+  .menu a{
+    display: block;
+    padding: 8px;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    color: bisque;
+  }
+
+  .menu li a:hover{
+    background-color: aliceblue;
+  }
