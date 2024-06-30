@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>籃球約戰平台</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="main.html">首頁</a></li>
+                <li><a href="findteam.html">尋找隊伍</a></li>
+                <li><a href="findplay.html">尋找比賽</a></li>
+                <li><a href="findmap.html">尋找場地</a></li>
+                <li><a href="know.html">關於我們</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="login">
+        <nav class="input">
+            <div class="input-group">
+                <label for="rounded">帳號</label>
+                <input type="text" id="rounded" class="rounded-input" name="name" required minlength="4" maxlength="8" size="10" />
+                
+            </div>
+            <div class="input-group">
+                <label for="password">密碼
+                </label>
+                <input type="password" id="password" class="rounded-input" name="name_password"/>
+            </div>
+            <div class="button">
+                <button class="btn" onclick="login()">登入</button>
+            </div>
+        </nav>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
